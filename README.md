@@ -35,3 +35,19 @@ caching-proxy-server/
 └── .env                         # Environment configuration file
 ```
 
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/t3jaskar/caching-proxy-server.git
+   cd caching-proxy-server
+   ```
+2. Install dependencies:
+   ```bash
+    npm install
+   ```
+3. Start the server with the command:
+   ```bash
+    node index.js --port 3000 --origin http://dummyjson.com
+   ```
